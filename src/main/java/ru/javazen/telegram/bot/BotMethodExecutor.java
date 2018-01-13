@@ -14,4 +14,8 @@ public class BotMethodExecutor {
     public <T> T execute(ApiMethod apiMethod, Class<T> clazz) {
         return telegramService.executeMethod(apiMethod, token, clazz);
     }
+
+    public void execute(ApiMethod apiMethod) {
+        telegramService.executeMethod(apiMethod, token);
+    }
 }

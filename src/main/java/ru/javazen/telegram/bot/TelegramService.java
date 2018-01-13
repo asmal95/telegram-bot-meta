@@ -16,4 +16,12 @@ public interface TelegramService {
      * @return the response from the Telegram
      */
     <T> T executeMethod(ApiMethod apiMethod, String token, Class<T> clazz);
+
+
+    /**
+     * Execute Telegram method.
+     * @param apiMethod method to be executed
+     * @param token bot token
+     */
+    void executeMethod(ApiMethod apiMethod, String token);
 }

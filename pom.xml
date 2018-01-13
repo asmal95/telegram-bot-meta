@@ -6,7 +6,7 @@
 
     <groupId>ru.javazen.telegram.bot</groupId>
     <artifactId>telegram-bot-meta</artifactId>
-    <version>0.9.0</version>
+    <version>0.9.1-SNAPSHOT</version>
 
     <properties>
         <maven.compiler.source>1.7</maven.compiler.source>
